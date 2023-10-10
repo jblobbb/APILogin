@@ -16,5 +16,4 @@ test('login to website', async ({page})=> {
         window.localStorage.setItem('token', value)
     }, response.token);
     await page.goto("https://rahulshettyacademy.com/client/");
-    await page.pause();
 });
